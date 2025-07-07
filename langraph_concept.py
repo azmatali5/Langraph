@@ -7,6 +7,7 @@ class movies(TypedDict):
       age : int
 
 movies=movies(name='boss',age=206)
+
  
  # union 
 
