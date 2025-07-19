@@ -1,7 +1,8 @@
                               #     type anotation 
 
 # Typed Dictionary
-from typing import TypedDict
+from typing import TypedDict 
+import random
 class movies(TypedDict):
       name :str
       age : int
@@ -27,4 +28,4 @@ print(sum2(2,3))
 
 pr = lambda a,b: print(a,b)
 pr('ali',"az")
-      
+
